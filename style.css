@@ -54,3 +54,7 @@ input.empty {
 .logo{
   margin-left: 192px;
 }
+
+.middlearea{
+  height: 200px !important;
+}
