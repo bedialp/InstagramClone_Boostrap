@@ -28,6 +28,7 @@ input.empty {
   border-radius: 50%;
   border: 2px solid rgb(238, 39, 82);
   margin-right: 7px;
+  
 }
 
 .storytext {
@@ -57,4 +58,25 @@ input.empty {
 
 .middlearea{
   height: 200px !important;
+  display: flex;
+  flex-grow: 0;
+}
+#sticky-sidebar{
+  position: fixed;
+}
+.rightpanel{
+  background-color: white;
+  border: none;
+}
+.fas{
+float: right;
+}
+.card-header{
+background-color: white;
+}
+.card-footer{
+background-color: white;
+}
+.card{
+  margin-bottom: 20px;
 }
